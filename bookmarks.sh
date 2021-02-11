@@ -5,4 +5,4 @@ echo $URL
 URL2=$(awk '/'$URL'/ { print $2 }' ~/Script/Bookmarks)
 echo $URL2
 
-firefox --new-tab "$URL2"
+librewolf --new-tab "$URL2"
